@@ -1,6 +1,7 @@
 # EnvLoader
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Eygem/env_loader/blob/main/LICENSE)
+[![Build Status](https://github.com/Eygem/env_loader/actions/workflows/ci.yml/badge.svg)](https://github.com/Eygem/env_loader/actions)
 
 A lightweight, dependency-free Elixir library for loading `.env` files into the system environment. Built for simplicity and robustness, it handles edge cases like comments, quoted values, `EXPORT` directives, empty keys, and inline comments with fewer than 60 lines of code.
 
@@ -107,5 +108,5 @@ Contributions are welcome! Please open an issue or pull request on [GitHub](http
 
 ## License
 
-Released under the [MIT License](LICENSE). See the **[LICENSE.md](https://github.com/Eygem/env_loader/blob/main/LICENSE)** file for details.
+Released under the MIT License. See the **[LICENSE](https://github.com/Eygem/env_loader/blob/main/LICENSE)** file for details.
 

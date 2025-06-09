@@ -46,7 +46,7 @@ defmodule EnvLoader do
             [key, value] ->
               key = String.trim(key)
 
-              # Strip quotes and whitespace from value
+              # Strip quotes and whitespaces from value
               value =
                 String.trim(value)
                 |> String.trim_leading("'")
@@ -55,7 +55,6 @@ defmodule EnvLoader do
                 |> String.trim_trailing("\"")
 
               # Loads key-value pairs into the system environment
-              # if key != "" and value != "", do: System.put_env(key, value)
               if key != "" and value != "", do: System.put_env(key, value)
 
             _ ->

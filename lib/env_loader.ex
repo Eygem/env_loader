@@ -1,6 +1,8 @@
 defmodule EnvLoader do
   @moduledoc """
-  A lightweight, dependency-free Elixir library for loading `.env` files into the system environment. Built for simplicity and robustness, it handles edge cases like comments, quoted values, `EXPORT` directives, empty keys, and inline comments with fewer than 60 lines of code.
+  A lightweight, dependency-free Elixir library for loading `.env` files into the system environment.
+  Built for simplicity and robustness, it handles edge cases like comments, quoted values, `EXPORT`
+  directives, empty keys, and inline comments with fewer than 60 lines of code.
   """
 
   require Logger

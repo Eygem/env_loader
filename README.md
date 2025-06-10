@@ -10,12 +10,9 @@ A lightweight, dependency-free Elixir library for loading `.env` files into the 
 
 Add `env_loader` to your `mix.exs` dependencies:
 ```elixir
-{:env_loader, git: "https://github.com/eygem/env_loader.git", branch: "main"}
+{:env_loader, "~> 0.1"}
 ```
 Run mix deps.get to fetch the dependency.
-
-**Note:** *This library will soon be available on [Hex.pm](https://hex.pm/) for easier installation. Stay tuned!*
-
 
 ## Usage
 

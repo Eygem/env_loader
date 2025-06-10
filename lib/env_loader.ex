@@ -12,7 +12,6 @@ defmodule EnvLoader do
 
   ## Parameters
   - `path`: Path to the .env file (e.g., "./envs/.env").
-  - `opts`: Options (e.g., `default: "value"` for missing keys).
 
   ## Returns
   - `:ok` on success, `:error` if the file is not found.
@@ -25,7 +24,7 @@ defmodule EnvLoader do
       "value"
       iex> File.rm!("test.env")
   """
-  def load(path, _opts \\ []) do
+  def load(path) do
     if File.exists?(path) do
       Logger.info("Loading .env file #{path}")
 

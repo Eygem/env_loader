@@ -9,7 +9,7 @@ defmodule EnvLoaderTest do
     ENCRYPTION_KEY='secret123'
     API_KEY="key with spaces"
     EMPTY_KEY=
-    =EMPTY_VALUE
+    =value
     MALFORMED
     KEY_WITH_EQUALS=abc=def
     EXPORT EXPORT1_KEY="export1"

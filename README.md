@@ -1,5 +1,6 @@
 # EnvLoader
 
+[![Hex.pm](https://img.shields.io/hexpm/v/env_loader.svg)](https://hex.pm/packages/env_loader)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Eygem/env_loader/blob/main/LICENSE)
 [![Build Status](https://github.com/Eygem/env_loader/actions/workflows/ci.yml/badge.svg)](https://github.com/Eygem/env_loader/actions)
 
